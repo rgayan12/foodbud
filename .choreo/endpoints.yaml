@@ -1,0 +1,10 @@
+version: 0.1
+
+endpoints:
+  - name: "REST API"
+    description: "A simple hello world endpoint"
+    path: "/hello"
+    type: "REST"
+    networkVisibility: "public"
+    context: /
+
